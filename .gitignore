@@ -1,0 +1,15 @@
+# full dataset (download with: python -m src.data.download)
+data/pheme/
+data/synth/
+*.tar.bz2
+_cache_threads_*.pkl
+# training outputs (checkpoints are large and reproducible)
+runs*/
+*.pt
+!models/*.pt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# unpacked copy of the sample (the .tar.gz is kept in git)
+data/samples/pheme_samples/

@@ -1,0 +1,23 @@
+Loaded runs/impactguard_seed42/best.pt (model impactguard, saved at epoch 33, decision threshold 0.30)
+
+Batch of 8 test cascades. P(rumour) as the cascade unfolds:
+ # event            true          10m    30m    60m   120m   full  pred       ok  source tweet
+ 0 ottawashooting   non-rumour   0.74   0.77   0.73   0.74   0.72  rumour     NO  'Canadian cabinet minister Jason Kenney says "Canada will not'
+ 1 sydneysiege      rumour       0.68   0.68   0.66   0.66   0.66  rumour     yes 'Heavy police activity at Sydney cafe shown on @abcnews lives'
+ 2 ferguson         rumour       0.67   0.69   0.69   0.69   0.69  rumour     yes 'Being shot 10 times in the street for stealing cigars is due'
+ 3 ferguson         non-rumour   0.06   0.07   0.07   0.07   0.06  non-rumour yes 'Oh, this new @JColeNC is very emotional, I suggest you take '
+ 4 charliehebdo     non-rumour   0.01   0.01   0.01   0.01   0.01  non-rumour yes "Depressing that ppl don't realise most victims of Islamic ex"
+ 5 ferguson         non-rumour   0.20   0.20   0.25   0.25   0.25  non-rumour yes 'High school graduation picture of Mike Brown. May he rest in'
+ 6 sydneysiege      non-rumour   0.09   0.11   0.12   0.12   0.11  non-rumour yes 'You gotta admire the ability of Daily Tele editors to resist'
+ 7 ottawashooting   rumour       0.85   0.85   0.85   0.85   0.85  rumour     yes 'Canada police say suspect in Ottawa shooting still at large,'
+Batch accuracy on full cascades: 7/8
+
+Impact estimate at 30 minutes (size head): tweets seen so far -> predicted final size -> actual
+ 0  seen  11 -> predicted   14.3 -> actual  19   (reach still to come if nothing is done: about   3.3 tweets)
+ 1  seen   3 -> predicted    4.9 -> actual   5   (reach still to come if nothing is done: about   1.9 tweets)
+ 2  seen   5 -> predicted    9.0 -> actual  12   (reach still to come if nothing is done: about   4.0 tweets)
+ 3  seen   5 -> predicted   11.2 -> actual  11   (reach still to come if nothing is done: about   6.2 tweets)
+ 4  seen   7 -> predicted   14.1 -> actual  17   (reach still to come if nothing is done: about   7.1 tweets)
+ 5  seen  14 -> predicted   18.8 -> actual  18   (reach still to come if nothing is done: about   4.8 tweets)
+ 6  seen  22 -> predicted   30.8 -> actual  22   (reach still to come if nothing is done: about   8.8 tweets)
+ 7  seen  14 -> predicted   14.4 -> actual  15   (reach still to come if nothing is done: about   0.4 tweets)

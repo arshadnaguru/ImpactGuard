@@ -1,0 +1,11 @@
+name: impactguard
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch>=2.0
+      - scikit-learn>=1.2
+      - numpy>=1.24
+      - matplotlib>=3.7

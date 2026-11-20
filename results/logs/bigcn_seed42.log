@@ -1,0 +1,53 @@
+=== bigcn_seed42 | device cuda | args {'data': 'data/pheme', 'model': 'bigcn', 'prefix_aug': False, 'split': 'stratified', 'test_event': None, 'max_threads': 0, 'epochs': 40, 'hidden': 64, 'lr': 0.001, 'bs': 32, 'seed': 42, 'data_seed': 42, 'out': 'runs'}
+Cascades: 5802 | rumour 1972 | non-rumour 3830 | tweets 102351 (mean 17.6)
+Split (stratified): train 4061 | val 870 | test 871 | node features 67-d
+Model: BiGCN | parameters: 26,114 | prefix training: False
+epoch 01/40 | train loss 0.6574 | val AUROC full 0.7598 | val AUROC@30min 0.7577 | val F1 0.6014  <- saved best.pt
+epoch 02/40 | train loss 0.5721 | val AUROC full 0.8380 | val AUROC@30min 0.8386 | val F1 0.6678  <- saved best.pt
+epoch 03/40 | train loss 0.5240 | val AUROC full 0.8508 | val AUROC@30min 0.8511 | val F1 0.7008  <- saved best.pt
+epoch 04/40 | train loss 0.5079 | val AUROC full 0.8592 | val AUROC@30min 0.8602 | val F1 0.7051  <- saved best.pt
+epoch 05/40 | train loss 0.4969 | val AUROC full 0.8632 | val AUROC@30min 0.8643 | val F1 0.7186  <- saved best.pt
+epoch 06/40 | train loss 0.4994 | val AUROC full 0.8668 | val AUROC@30min 0.8670 | val F1 0.7129  <- saved best.pt
+epoch 07/40 | train loss 0.4929 | val AUROC full 0.8653 | val AUROC@30min 0.8656 | val F1 0.6931
+epoch 08/40 | train loss 0.4846 | val AUROC full 0.8649 | val AUROC@30min 0.8658 | val F1 0.7184
+epoch 09/40 | train loss 0.4789 | val AUROC full 0.8670 | val AUROC@30min 0.8676 | val F1 0.7089  <- saved best.pt
+epoch 10/40 | train loss 0.4782 | val AUROC full 0.8662 | val AUROC@30min 0.8670 | val F1 0.7192
+epoch 11/40 | train loss 0.4698 | val AUROC full 0.8680 | val AUROC@30min 0.8686 | val F1 0.7341  <- saved best.pt
+epoch 12/40 | train loss 0.4669 | val AUROC full 0.8687 | val AUROC@30min 0.8697 | val F1 0.7101  <- saved best.pt
+epoch 13/40 | train loss 0.4660 | val AUROC full 0.8681 | val AUROC@30min 0.8688 | val F1 0.7385
+epoch 14/40 | train loss 0.4669 | val AUROC full 0.8677 | val AUROC@30min 0.8674 | val F1 0.6881
+epoch 15/40 | train loss 0.4684 | val AUROC full 0.8691 | val AUROC@30min 0.8701 | val F1 0.6825  <- saved best.pt
+epoch 16/40 | train loss 0.4688 | val AUROC full 0.8681 | val AUROC@30min 0.8701 | val F1 0.6667
+epoch 17/40 | train loss 0.4582 | val AUROC full 0.8685 | val AUROC@30min 0.8704 | val F1 0.7150
+epoch 18/40 | train loss 0.4580 | val AUROC full 0.8659 | val AUROC@30min 0.8661 | val F1 0.7067
+epoch 19/40 | train loss 0.4603 | val AUROC full 0.8674 | val AUROC@30min 0.8681 | val F1 0.7304
+epoch 20/40 | train loss 0.4586 | val AUROC full 0.8700 | val AUROC@30min 0.8711 | val F1 0.7181  <- saved best.pt
+epoch 21/40 | train loss 0.4501 | val AUROC full 0.8700 | val AUROC@30min 0.8720 | val F1 0.7166  <- saved best.pt
+epoch 22/40 | train loss 0.4523 | val AUROC full 0.8687 | val AUROC@30min 0.8699 | val F1 0.7295
+epoch 23/40 | train loss 0.4534 | val AUROC full 0.8694 | val AUROC@30min 0.8705 | val F1 0.7164
+epoch 24/40 | train loss 0.4535 | val AUROC full 0.8694 | val AUROC@30min 0.8704 | val F1 0.7288
+epoch 25/40 | train loss 0.4490 | val AUROC full 0.8694 | val AUROC@30min 0.8709 | val F1 0.7225
+epoch 26/40 | train loss 0.4497 | val AUROC full 0.8724 | val AUROC@30min 0.8742 | val F1 0.7270  <- saved best.pt
+epoch 27/40 | train loss 0.4431 | val AUROC full 0.8718 | val AUROC@30min 0.8728 | val F1 0.7207
+epoch 28/40 | train loss 0.4521 | val AUROC full 0.8713 | val AUROC@30min 0.8724 | val F1 0.7264
+epoch 29/40 | train loss 0.4432 | val AUROC full 0.8708 | val AUROC@30min 0.8714 | val F1 0.7183
+epoch 30/40 | train loss 0.4370 | val AUROC full 0.8698 | val AUROC@30min 0.8696 | val F1 0.7252
+epoch 31/40 | train loss 0.4481 | val AUROC full 0.8723 | val AUROC@30min 0.8729 | val F1 0.7409
+epoch 32/40 | train loss 0.4390 | val AUROC full 0.8703 | val AUROC@30min 0.8721 | val F1 0.7395
+epoch 33/40 | train loss 0.4362 | val AUROC full 0.8715 | val AUROC@30min 0.8718 | val F1 0.7168
+epoch 34/40 | train loss 0.4394 | val AUROC full 0.8671 | val AUROC@30min 0.8656 | val F1 0.7221
+epoch 35/40 | train loss 0.4330 | val AUROC full 0.8702 | val AUROC@30min 0.8710 | val F1 0.7185
+epoch 36/40 | train loss 0.4347 | val AUROC full 0.8710 | val AUROC@30min 0.8733 | val F1 0.7143
+epoch 37/40 | train loss 0.4341 | val AUROC full 0.8727 | val AUROC@30min 0.8743 | val F1 0.7314  <- saved best.pt
+epoch 38/40 | train loss 0.4334 | val AUROC full 0.8682 | val AUROC@30min 0.8676 | val F1 0.7070
+epoch 39/40 | train loss 0.4308 | val AUROC full 0.8719 | val AUROC@30min 0.8722 | val F1 0.7188
+epoch 40/40 | train loss 0.4324 | val AUROC full 0.8659 | val AUROC@30min 0.8623 | val F1 0.7087
+Training time: 53.6s | best val score 0.8735
+--- TEST (best.pt from epoch 37, decision threshold 0.45 chosen on validation) ---
+   full: AUROC 0.8643 | F1 0.7078 | Acc 0.7933
+  10min: AUROC 0.8592 | F1 0.7112 | Acc 0.7865
+  30min: AUROC 0.8613 | F1 0.7089 | Acc 0.7887
+  60min: AUROC 0.8630 | F1 0.7102 | Acc 0.7910
+ 120min: AUROC 0.8638 | F1 0.7074 | Acc 0.7910
+Confusion matrix on full cascades [rows=true non-rumour/rumour, cols=pred]: [[473, 102], [78, 218]]
+Saved: runs/bigcn_seed42/train.log, train_log.csv, best.pt, last.pt, metrics.json
